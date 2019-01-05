@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slider-range.css"> 
+  <link rel="stylesheet" href="symbols-nerds/css/symbols-nerds.css">	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet"> 	
+	<title>Дизайн студия nёrd's</title>	
+</head>
+<body>
+	<header class="main-header clearfix">
+		<div class="container">
+			<a href="index.html" class="logo">
+				<img src="img/Logo.png" alt="nёrd's" width="139px" height="56px">
+			</a>					
+			<ul class="main-nav">
+				<li><a href="index.html" class="main-nav__item">СТУДИЯ</a></li>
+				<li><a href="#" class="main-nav__item">КЛИЕНТЫ</a></li>
+				<li><a href="nerds-catalog.html" class="main-nav__item active">МАГАЗИН</a></li>
+				<li><a href="#" class="main-nav__item">КОНТАКТЫ</a></li>
+				<li><a href="#" class="main-nav__item icon-basket">КОРЗИНА</a></li>
+			</ul>			
+		</div>
+	</header>
+	<main>
+		<div class="welcome-block">
+			<div class="container">
+				<h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН<br> ГОТОВЫХ МАКЕТОВ</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="shop clearfix">
+				<div class="sidebar">					
+					<form action="#">
+						<div class="filter">
+							<b>СТОИМОСТЬ:</b><br>						
+							<div class="slider-range">
+								<div id="slider-range"></div>
+							</div>										
+							<b>ОТ</b>
+							<input type="text" id="from" name="num-min" value="0">	
+							<b>ДО</b>				
+							<input type="text" id="to" name="num-max" value="20000">
+						</div>
+						<div class="filter">
+							<b>СЕТКА:</b><br>		
+							<label class="radio"><input type="radio" id="radio1" name="answer"><span class="radio__text">Адаптивная</span></label><br>
+							<label class="radio"><input type="radio" id="radio2" name="answer"><span class="radio__text">Фиксированная</span></label><br>
+							<label class="radio"><input type="radio" id="radio3" name="answer"><span class="radio__text">Резиновая</span></label><br>
+						</div>
+						<div class="filter">
+							<b>ОСОБЕННОСТИ:</b><br>	
+							<label class="checkbox"><input type="checkbox" name="filter__checkbox" checked><span class="icon-check-off">Слайдер</span></label><br>	
+							<label class="checkbox"><input type="checkbox" name="filter__checkbox"><span class="icon-check-off">Блок преимуществ</span></label><br>	
+							<label class="checkbox"><input type="checkbox" name="filter__checkbox"checked><span class="icon-check-off">Новости</span></label><br>	
+							<label class="checkbox"><input type="checkbox" name="filter__checkbox"><span class="icon-check-off">Галерея</span></label><br>	
+							<label class="checkbox"><input type="checkbox" name="filter__checkbox"><span class="icon-check-off">Корзина</span></label><br>	
+						</div>
+						<button type="submit" class="btn-submit">Показать</button>
+					</form>
+				</div>
+				<div class="catalog">
+					<div class="sort">
+						<span class="sort__title">
+							СОРТИРОВАТЬ:
+						</span>
+						<ul class="sort__list">
+							<li class="sort__text"><a href="#">ПО ЦЕНЕ</a></li>
+							<li class="sort__text"><a href="#">ПО ТИПУ</a></li>
+							<li class="sort__text"><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+						</ul>
+						<div class="sort__control">
+							<a href="#" class="icon-down-dir active"></a>
+							<a href="#" class="icon-up-dir"></a>
+						</div>
+					</div>	
+					<div class="goods">
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item1.jpg" alt="AVIATOR" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>AVIATOR</h3>
+								<p>Одностраничный макет с авторским дизайном</p>
+								<a href="#" class="btn">8000 Р.</a>
+							</div>
+						</div>
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item2.jpg" alt="SUNSET" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>SUNSET</h3>
+								<p>Интернет-магазин с личным кабинетом</p>
+								<a href="#" class="btn">10000 Р.</a>
+							</div>
+						</div>
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item3.jpg" alt="AVIATOR" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>FORTE</h3>
+								<p>Отличный макет для личного блога</p>
+								<a href="#" class="btn">5000 Р.</a>
+							</div>
+						</div>
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item4.jpg" alt="AVIATOR" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>Modern Organic THAI</h3>
+								<p>Сайт для ресторана быстрого питания</p>
+								<a href="#" class="btn">5000 Р.</a>
+							</div>
+						</div>
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item5.jpg" alt="AVIATOR" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>AVENUE</h3>
+								<p>Макет для блога  о путешествиях</p>
+								<a href="#" class="btn">12000 Р.</a>
+							</div>
+						</div>
+						<div class="goods__item">
+							<div class="goods__item__header"><span></span><span></span><span></span></div>
+							<img src="img/goods__item6.jpg" alt="AVIATOR" height="240px" width="240px">
+							<div class="goods__item__description">
+								<h3>DOVETAIL</h3>
+								<p>Интернет-магазин с галереей товаров</p>
+								<a href="#" class="btn">8000 Р.</a>
+							</div>
+						</div>
+					</div>
+					<div class="paginator">
+						<span class="btn-submit paginator__num paginator__num-active">1</span>
+						<a href="#" class="btn-submit paginator__num">2</a>
+						<a href="#" class="btn-submit paginator__num">3</a>
+						<a href="#" class="btn-submit paginator__next">СЛЕДУЮЩАЯ</a>
+					</div>				
+				</div>
+			</div>	
+		</div>			
+	</main>
+	<div class="map-wrapper" >	
+		<div id="map">
+			<div class="container">			
+				<div class="contacts">
+					<p class="contacts__title">NЁRDS DESIGN STUDIO</p>
+					<p class="contacts__adress">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+					<p class="contacts__phone">тел. +7 (812) 275-75-75</p>
+					<a href="#" class="btn contacts-btn">НАПИШИТЕ НАМ</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<footer class="container clearfix">
+		<div class="social">			
+			<a href="https://vk.com/" class="social__item icon-vk"></a>
+			<a href="https://www.facebook.com" class="social__item icon-facebook"></a>
+			<a href="https://www.instagram.com/" class="social__item icon-instagramm"></a>
+		</div>
+		<div class="footer-text">
+			<h2>Давай дружить, это выгодно!</h2>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+		</div>
+	</footer>
+</body>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<2dd501c9-44f4-4e59-a5af-83773c981415>" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</html>
