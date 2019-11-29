@@ -359,33 +359,33 @@ a.main-nav__item:active {
 }
 
 .portfolio__item--first{
-	background-image: url(img/portfolio1.png);
+	background-image: url(../img/portfolio1.png);
 	background-position: center; 
   background-repeat: no-repeat;   
 }
 
 .portfolio__item--first:hover {
-	background-image: url(img/portfolio1-hover.png);
+	background-image: url(../img/portfolio1-hover.png);
 }
 
 .portfolio__item--two{
-	background-image: url(img/portfolio2.png);
+	background-image: url(../img/portfolio2.png);
 	background-position: center; 
   background-repeat: no-repeat; 
 }
 
 .portfolio__item--two:hover {
-	background-image: url(img/portfolio2-hover.png);
+	background-image: url(../img/portfolio2-hover.png);
 }
 
 .portfolio__item--third{
-	background-image: url(img/portfolio3.png);
+	background-image: url(../img/portfolio3.png);
 	background-position: center; 
   background-repeat: no-repeat; 
 }
 
 .portfolio__item--third:hover {
-	background-image: url(img/portfolio3-hover.png);
+	background-image: url(../img/portfolio3-hover.png);
 }
 
 
