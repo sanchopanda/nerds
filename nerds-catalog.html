@@ -152,11 +152,21 @@
 					<p class="contacts__title">NЁRDS DESIGN STUDIO</p>
 					<p class="contacts__adress">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
 					<p class="contacts__phone">тел. +7 (812) 275-75-75</p>
-					<a href="#" class="btn contacts-btn">НАПИШИТЕ НАМ</a>
+					<a href="#" class="btn contacts__btn">НАПИШИТЕ НАМ</a>
+				</div>
+				<div class="modal-contacts">
+					<button class="btn modal-contacts__close"></button>
+					<form action="#" id="write-us">
+						<label class="modal-contacts__name"><span>Ваше имя:</span><br><input type="text" name="Name" placeholder="ПРЕДСТАВЬТЕСЬ ПОЖАЛУЙСТА"></label>
+						<label class="modal-contacts__email"><span>Ваш e-mail:</span><br><input type="text" name="E-mail" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА"></label>
+						<div class="clearfix"></div>
+						<label class="modal-contacts__text"><span>Текст письма:</span><br><textarea name="Text" placeholder="В СВОБОДНОЙ ФОРМЕ"></textarea></label>
+						<button class="btn modal-contacts__btn">ОТПРАВИТЬ</button>
+					</form>
 				</div>
 			</div>
 		</div>	
-	</div>
+	</div>	
 	<footer class="container clearfix">
 		<div class="social">			
 			<a href="https://vk.com/" class="social__item icon-vk"></a>
@@ -171,4 +181,5 @@
 </body>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<2dd501c9-44f4-4e59-a5af-83773c981415>" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
+<script src="js/modal-contacts.js"  type="text/javascript"></script>
 </html>
